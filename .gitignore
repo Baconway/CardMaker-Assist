@@ -1,0 +1,75 @@
+# ====================================================================
+# Developer-Provided Proprietary Reference Assemblies
+# Developers must supply their own Assembly-CSharp.dll extracted from
+# their CardMaker game installation (CardMaker_Data/Managed/Assembly-CSharp.dll).
+# ====================================================================
+libs/Assembly-CSharp.dll
+libs/Assembly-CSharp*.dll
+libs/Assembly-CSharp*.bak
+libs/AMDaemon.NET.dll
+**/Assembly-CSharp.dll
+**/Assembly-CSharp*.dll
+**/AMDaemon.NET.dll
+CardMakerCustomizer.Tests
+
+# ====================================================================
+# Build Outputs & Compiled Binaries
+# ====================================================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa]rm64/
+build/
+publish/
+
+# ====================================================================
+# Visual Studio & IDE Artifacts
+# ====================================================================
+.vs/
+*.user
+*.userosv
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.VC.db
+*.opendb
+*.ipch
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# ====================================================================
+# MelonLoader & Game Runtime Artifacts
+# ====================================================================
+MelonLoader/
+UserData/
+UserLibs/
+Logs/
+*.log
+
+# ====================================================================
+# Temporary & OS Files
+# ====================================================================
+*.tmp
+*.temp
+*.bak
+*~
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
