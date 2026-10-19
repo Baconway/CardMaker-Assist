@@ -1,4 +1,4 @@
-# CardMaker-Assit
+# CardMaker-Assist
 
 Mod for SDED
 
